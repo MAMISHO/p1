@@ -9,4 +9,3 @@ class Empresa:
         self.razon_social=razon
         self.lista_dep = []
 
-    
