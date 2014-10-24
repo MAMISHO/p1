@@ -19,3 +19,16 @@ class Empleado:
     def getNombreApellidos(self):
         return self.nombre + " " + self.apellidos
 
+    #nuevos cambios en la rama dev
+    def get_edad(self):
+        return self.edad
+
+    def get_email(self):
+        return self.email
+
+    def get_direccion(self):
+        return self.direccion
+
+    def get_salario_mensual(self):
+        return self.getSalario()*12
+
