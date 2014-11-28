@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Empleado &mdash; Empresa 0.1 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-3.2.0/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-3.2.0/css/bootstrap-theme.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-3.2.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <link rel="top" title="Empresa 0.1 documentation" href="../index.html" />
+    <link rel="up" title="Module code" href="index.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body>
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../index.html">
+          Empresa</a>
+        <span class="navbar-text navbar-version pull-left"><b>0.1</b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul>
+<li class="toctree-l1"><a class="reference internal" href="../intro.html">Introduccion a la aplicacion</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../test.html">Test Software</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../departamento.html">Departamento</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../empleado.html">Empleado</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../empresa.html">Empresa</a></li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"></ul>
+</li>
+              
+            
+            
+              
+                
+              
+            
+            
+            
+            
+              <li class="hidden-sm"></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      
+  <h1>Source code for Empleado</h1><div class="highlight"><pre>
+<span class="n">__author__</span> <span class="o">=</span> <span class="s">&#39;MAMISHO&#39;</span>
+
+
+<div class="viewcode-block" id="Empleado"><a class="viewcode-back" href="../empleado.html#Empleado.Empleado">[docs]</a><span class="k">class</span> <span class="nc">Empleado</span><span class="p">:</span>
+
+<div class="viewcode-block" id="Empleado.__init__"><a class="viewcode-back" href="../empleado.html#Empleado.Empleado.__init__">[docs]</a>    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">nombre</span><span class="p">,</span> <span class="n">apellidos</span><span class="p">,</span> <span class="n">dni</span><span class="p">,</span> <span class="n">direccion</span><span class="p">,</span> <span class="n">edad</span><span class="p">,</span> <span class="n">email</span><span class="p">,</span> <span class="n">salario</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Constructor de Empleado</span>
+
+<span class="sd">        Este metodo crea un objeto de la clase Empleado que recibe y asigna los siguiente</span>
+<span class="sd">        parametros</span>
+
+<span class="sd">        :param nombre: Nombre del empleado</span>
+<span class="sd">        :param apellidos: Apellido del empleado</span>
+<span class="sd">        :param dni: Identificador del empleado, en este caso el DNI</span>
+<span class="sd">        :param direccion: Direccion del empleado</span>
+<span class="sd">        :param edad: Edad del empleado</span>
+<span class="sd">        :param email: Correo electronico del empleado</span>
+<span class="sd">        :param salario: Salario mensual del empleado</span>
+<span class="sd">        :return: no devuelve nada</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">nombre</span> <span class="o">=</span> <span class="n">nombre</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">apellidos</span> <span class="o">=</span> <span class="n">apellidos</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">dni</span> <span class="o">=</span> <span class="n">dni</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">direccion</span> <span class="o">=</span> <span class="n">direccion</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">edad</span> <span class="o">=</span> <span class="n">edad</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">email</span> <span class="o">=</span> <span class="n">email</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">salario</span> <span class="o">=</span> <span class="n">salario</span>
+</div>
+<div class="viewcode-block" id="Empleado.get_salario"><a class="viewcode-back" href="../empleado.html#Empleado.Empleado.get_salario">[docs]</a>    <span class="k">def</span> <span class="nf">get_salario</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Salario del empleado</span>
+
+<span class="sd">        Este metodo devuelve el salario anual del empleado</span>
+
+<span class="sd">        :return: Salario del empleado con decimales</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">salario</span>
+</div>
+<div class="viewcode-block" id="Empleado.get_dni"><a class="viewcode-back" href="../empleado.html#Empleado.Empleado.get_dni">[docs]</a>    <span class="k">def</span> <span class="nf">get_dni</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        DNI del empleado</span>
+
+<span class="sd">        Este metodo devuelve el identificador del empleado, en este</span>
+<span class="sd">        caso el DNI del empleado, el id esta definido por 8 numeros</span>
+<span class="sd">        y una letra mayuscula al final</span>
+
+<span class="sd">        :return: String que contiene el identificador del empleado</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">dni</span>
+</div>
+<div class="viewcode-block" id="Empleado.get_nombre_apellidos"><a class="viewcode-back" href="../empleado.html#Empleado.Empleado.get_nombre_apellidos">[docs]</a>    <span class="k">def</span> <span class="nf">get_nombre_apellidos</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Nombre y apellidos del empleado</span>
+
+<span class="sd">        Este metodo devuelve un String con el nombre y palllido del empleado en</span>
+<span class="sd">        este orden, tambien se puede invertir el orden, es decir que podemos</span>
+<span class="sd">        recibir primero el apellido y luego el nombre.</span>
+
+<span class="sd">        :return: String con el nombre y apellido del empleado</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">nombre</span> <span class="o">+</span> <span class="s">&quot; &quot;</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">apellidos</span>
+
+    <span class="c">#nuevos cambios en la rama dev</span></div>
+<div class="viewcode-block" id="Empleado.get_edad"><a class="viewcode-back" href="../empleado.html#Empleado.Empleado.get_edad">[docs]</a>    <span class="k">def</span> <span class="nf">get_edad</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Edad del empleado</span>
+
+<span class="sd">        Este metodo devuelve la edad del empleado</span>
+
+<span class="sd">        :return: Edad del empleado</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">edad</span>
+</div>
+<div class="viewcode-block" id="Empleado.get_email"><a class="viewcode-back" href="../empleado.html#Empleado.Empleado.get_email">[docs]</a>    <span class="k">def</span> <span class="nf">get_email</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Email del empleado</span>
+
+<span class="sd">        Este metodo devuelve el correo electronico del empleado</span>
+
+<span class="sd">        :return: String que contiene el correo electronico del empleado</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">email</span>
+</div>
+<div class="viewcode-block" id="Empleado.get_direccion"><a class="viewcode-back" href="../empleado.html#Empleado.Empleado.get_direccion">[docs]</a>    <span class="k">def</span> <span class="nf">get_direccion</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Direccion del empleado</span>
+
+<span class="sd">        Este metodos devuelve la direccion del empleado</span>
+
+<span class="sd">        :return: String con la direccion del empleado</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">direccion</span>
+</div>
+<div class="viewcode-block" id="Empleado.get_salario_mensual"><a class="viewcode-back" href="../empleado.html#Empleado.Empleado.get_salario_mensual">[docs]</a>    <span class="k">def</span> <span class="nf">get_salario_mensual</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Salario mensual</span>
+
+<span class="sd">        Este metodo devuelve el salario mensual del empleado, tomndo en cuenta que</span>
+<span class="sd">        las pagas estan prorrateadas, por eso solo se divide para 12</span>
+
+<span class="sd">        :return: Salario mensual del empleado</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_salario</span><span class="p">()</span><span class="o">/</span><span class="mi">12</span>
+</pre></div></div></div>
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2014, Mauricio.<br/>
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.2.3.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>
