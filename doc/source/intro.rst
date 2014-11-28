@@ -9,23 +9,23 @@ Introduccion a la aplicacion
 
 Funcionalidades
 ---------------
-La aplicacion permite gestionar los departamentos de una empresa. En cada
-departamento podemos tener un grupo de empleados los cuales solo
-peryteneces a dicho deparamento.
+.. note:: La aplicacion permite gestionar los departamentos de una empresa. En cada
+          departamento podemos tener un grupo de empleados los cuales solo
+          peryteneces a dicho deparamento.
 
 Metodos
 -------
-Los metodos solo tienen salida por consoloa, pero en posteriores veriosnes
-se implementara para lo muestre mediante aplicaciones web y moviles
+.. note:: Los metodos solo tienen salida por consoloa, pero en posteriores veriosnes
+          se implementara para lo muestre mediante aplicaciones web y moviles
 
 Construcion
 -----------
-Si desea aportar con el proyecto, debera seguir la sintaxis de python
-y contruirlo con la IDE pycharm de forma opcional
+.. note:: Si desea aportar con el proyecto, debera seguir la sintaxis de python
+          y contruirlo con la IDE pycharm de forma opcional
 
 Metodologia
 -----------
-Se debera implemetar el modelo MVC
+.. warning:: Se debera implemetar el modelo MVC
 
 Indices and tables
 ==================

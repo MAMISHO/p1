@@ -6,7 +6,7 @@
 Documentacion de Empresa
 ========================
 
-Contents:
+Contenido:
 
 .. toctree::
    :maxdepth: 2

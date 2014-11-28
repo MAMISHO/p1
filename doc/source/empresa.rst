@@ -23,7 +23,7 @@ Contents:
 
 .. literalinclude:: ../../Empresa.py
    :linenos:
-   
+
 Indices and tables
 ==================
 
